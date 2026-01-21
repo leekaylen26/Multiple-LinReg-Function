@@ -1,8 +1,11 @@
+
+## Function
+
 multlinreg("y", ["x1", "x2", "x3", ... "xn"], "datafile.csv")
 
 multlinreg is used to run multiple linear regression, given user-specified outcome and any number of predictors from a .csv file. It is dependent on several libraries: NumPy, Pandas, scipy.stats, and os.
 
-**Function Inputs**
+## Function Inputs
 
 "y": the outcome variable. This is the variable that we are associating with the x variables.
 
@@ -10,7 +13,7 @@ multlinreg is used to run multiple linear regression, given user-specified outco
 
 "datafile.csv": data file. Must be csv file (See errors below). The function includes a read_csv function, so previously reading the file is not required (but recommended).
 
-**Function Outputs**
+## Function Outputs
 
 Parameter estimates for all predictors (including intercept)
 
@@ -26,7 +29,7 @@ Adjusted R-squared
 
 F-statistic and degrees of freedom, and corresponding p-value
 
-**Errors**
+## Errors
 
 "ERROR: FILE MUST BE .CSV.": The given file type in the third argument of the function is not a .csv file.
 
