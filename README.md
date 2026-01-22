@@ -3,7 +3,7 @@
 
 _multlinreg("y", ["x1", "x2", "x3", ... "xn"], "datafile.csv")_
 
-multlinreg is used to run multiple linear regression, given user-specified outcome and any number of predictors from a .csv file. It is dependent on several libraries: NumPy, Pandas, scipy.stats, and os.
+multlinreg is used to run multiple linear regression, given user-specified outcome and any number of predictors from a .csv file. It is dependent on the following libraries: NumPy, Pandas, scipy.stats, and os.
 
 ## Function Inputs
 
