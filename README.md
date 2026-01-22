@@ -1,5 +1,5 @@
 
-## Function
+## Function Description
 
 _multlinreg("y", ["x1", "x2", "x3", ... "xn"], "datafile.csv")_
 
